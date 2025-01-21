@@ -1,0 +1,137 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-image: url(Images/Bg.jpg);
+    background-size: cover;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #DCD0C0;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the logo/title */
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    list-style: none;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the main content */
+  main {
+    padding: 20px;
+  }
+
+
+
+  .row1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .row2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .Genre{
+    width: 200px;
+    background-color: #ba8f56;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+
+  .Genre:hover{
+    background-color: #997e5a;
+  }
+  
+
+
+
+
+  .book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .book {
+    margin: 10px;
+    padding: 10px;
+    background-color: #DCD0C0;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+  }
+  
+  .book img {
+    width: 125px;
+    border-radius: 5px;
+    margin-top: 25px;
+
+  }
+  
+  .book-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .book-author {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+
+
+
+
+
+  /* Style the footer */
+  footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #DCD0C0;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  }
+  

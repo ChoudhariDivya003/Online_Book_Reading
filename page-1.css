@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f9f5f2;
+}
+
+header{
+    background-image: url(bookweb/bg2.png);
+    height: 200px;
+    padding: 10px 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-top: 90px;
+    margin: 0px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(186, 176, 176);
+    padding: 30px;
+    color: white;
+}
+
+.active{
+    background-color: rgb(153, 146, 146);
+    padding: 25px;
+    color: #a9b5c2;
+}
+
+.bg{
+    max-width: 2024px;
+    max-height: 3000px;
+}
+
+.bgimage {
+    border-radius: 50%;
+  }
+
+
+.First{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Logo{
+    height: 25px;
+  width: 25px;
+  padding: 55px;
+  padding-left: 75px;
+  border-radius: 50%;
+}
+
+.Intro{
+    padding-top: 100px;
+    padding-right: 200px;
+    text-align: left;
+}
+
+.Intro h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Intro p{
+    font-family:'serif';
+    font-size: x-large;
+
+}
+
+.btn{
+    color: chocolate;
+}

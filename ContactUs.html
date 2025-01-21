@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="page-1.css">
+</head>
+<body>
+
+  <style>
+    body{
+      background-color: rgb(218, 218, 211);
+    }
+  </style>
+
+  <!--  <style>
+        body{
+            background-image: url(bookweb/bg3.jpeg);
+            background-size: cover;
+        }
+    </style>-->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/xampp/htdocs/webdev/page1.html">Home</a></li>
+                <li><a href="Books.html">Books</a></li>
+                <li><a href="file:///C:/xampp/htdocs/webdev/ContactUs.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="#" method="POST" class="Contact">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="user_name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="user_email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="user_message" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+     
+      <style>
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 500px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  padding: 1rem;
+  background-color: #95999d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #484c4f;
+}
+
+      </style>
+      
+    
+</body>
+</html>
